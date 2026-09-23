@@ -1,0 +1,17 @@
+[project]
+name = "powerinsight"
+version = "0.1.0"
+description = "Backend de IKD PowerInsight"
+readme = "README.md"
+authors = [
+    { name = "karolldahian", email = "kdrm1207@gmail.com" }
+]
+requires-python = ">=3.13"
+dependencies = []
+
+[project.scripts]
+powerinsight = "powerinsight:main"
+
+[build-system]
+requires = ["uv_build>=0.12.6,<0.13.0"]
+build-backend = "uv_build"
