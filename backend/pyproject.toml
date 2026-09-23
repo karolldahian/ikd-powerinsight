@@ -18,6 +18,7 @@ build-backend = "uv_build"
 
 [dependency-groups]
 dev = [
+    "basedpyright>=1.40.1",
     "ruff>=0.16.8",
 ]
 
@@ -40,3 +41,8 @@ select = [
 quote-style = "double"
 indent-style = "space"
 line-ending = "auto"
+
+[tool.basedpyright]
+pythonVersion = "3.13"
+typeCheckingMode = "strict"
+include = ["src"]
