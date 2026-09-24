@@ -1,0 +1,32 @@
+﻿[importlinter]
+root_package = powerinsight
+
+[importlinter:contract:1]
+name = Domain must remain independent
+type = forbidden
+source_modules =
+    powerinsight.domain
+forbidden_modules =
+    powerinsight.ports
+    powerinsight.application
+    powerinsight.infrastructure
+    powerinsight.interfaces
+
+[importlinter:contract:2]
+name = Application must not depend on outer layers
+type = forbidden
+source_modules =
+    powerinsight.application
+forbidden_modules =
+    powerinsight.infrastructure
+    powerinsight.interfaces
+
+[importlinter:contract:3]
+name = Ports must not depend on outer layers
+type = forbidden
+source_modules =
+    powerinsight.ports
+forbidden_modules =
+    powerinsight.application
+    powerinsight.infrastructure
+    powerinsight.interfaces

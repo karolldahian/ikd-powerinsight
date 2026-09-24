@@ -19,6 +19,7 @@ build-backend = "uv_build"
 [dependency-groups]
 dev = [
     "basedpyright>=1.40.1",
+    "import-linter>=2.15",
     "ruff>=0.16.8",
 ]
 
