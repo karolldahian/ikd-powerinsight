@@ -1,4 +1,4 @@
-﻿[importlinter]
+[importlinter]
 root_package = powerinsight
 
 [importlinter:contract:1]
