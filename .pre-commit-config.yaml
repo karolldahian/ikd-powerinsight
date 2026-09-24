@@ -1,0 +1,33 @@
+﻿repos:
+  - repo: https://github.com/astral-sh/ruff-pre-commit
+    rev: v0.16.8
+    hooks:
+      - id: ruff-check
+        args: [--fix]
+        files: ^backend/.*\.py$
+
+      - id: ruff-format
+        files: ^backend/.*\.py$
+
+  - repo: local
+    hooks:
+      - id: basedpyright
+        name: basedpyright
+        entry: uv run --directory backend basedpyright
+        language: system
+        pass_filenames: false
+        files: ^backend/
+
+      - id: import-linter
+        name: import-linter
+        entry: uv run --directory backend lint-imports --config .importlinter
+        language: system
+        pass_filenames: false
+        files: ^backend/
+
+      - id: pytest
+        name: pytest
+        entry: uv run --directory backend pytest
+        language: system
+        pass_filenames: false
+        files: ^backend/
