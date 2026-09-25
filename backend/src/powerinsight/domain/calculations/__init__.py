@@ -2,6 +2,10 @@ from powerinsight.domain.calculations.current import (
     current_from_active_power,
     current_from_apparent_power,
 )
+from powerinsight.domain.calculations.demand import (
+    DemandFact,
+    demand_fact,
+)
 from powerinsight.domain.calculations.motor import (
     active_input_power_from_motor_output,
     apparent_power_from_motor_output,
@@ -14,6 +18,7 @@ from powerinsight.domain.calculations.power import (
 )
 
 __all__ = [
+    "DemandFact",
     "active_input_power_from_motor_output",
     "active_power_from_apparent_and_power_factor",
     "apparent_power_from_active_and_power_factor",
@@ -21,5 +26,6 @@ __all__ = [
     "current_from_active_power",
     "current_from_apparent_power",
     "current_from_motor_output",
+    "demand_fact",
     "reactive_power_magnitude_from_active_and_apparent",
 ]
