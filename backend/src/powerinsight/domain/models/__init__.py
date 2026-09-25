@@ -1,3 +1,9 @@
+from powerinsight.domain.models.electrical_assets import (
+    ConductorRun,
+    Nameplate,
+    ProtectionDevice,
+    ProtectionDeviceType,
+)
 from powerinsight.domain.models.electrical_system import (
     Circuit,
     Equipment,
@@ -14,12 +20,16 @@ from powerinsight.domain.models.electrical_topology import (
 
 __all__ = [
     "Circuit",
+    "ConductorRun",
     "ElectricalTopology",
     "Equipment",
+    "Nameplate",
     "Organization",
     "Panel",
     "Phase",
     "PhaseAssignment",
+    "ProtectionDevice",
+    "ProtectionDeviceType",
     "Site",
     "Supply",
 ]
