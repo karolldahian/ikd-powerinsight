@@ -25,10 +25,15 @@ from powerinsight.domain.calculations.power import (
     apparent_power_from_active_and_power_factor,
     reactive_power_magnitude_from_active_and_apparent,
 )
+from powerinsight.domain.calculations.unbalance import (
+    LoadUnbalanceFact,
+    load_unbalance_fact,
+)
 
 __all__ = [
     "CircuitLoadFact",
     "DemandFact",
+    "LoadUnbalanceFact",
     "PanelLoadFact",
     "PhaseLoadContribution",
     "PhaseLoadFact",
@@ -41,6 +46,7 @@ __all__ = [
     "current_from_apparent_power",
     "current_from_motor_output",
     "demand_fact",
+    "load_unbalance_fact",
     "panel_load_fact",
     "phase_load_fact",
     "reactive_power_magnitude_from_active_and_apparent",
