@@ -17,12 +17,20 @@ from powerinsight.domain.models.electrical_topology import (
     Phase,
     PhaseAssignment,
 )
+from powerinsight.domain.models.measurements import (
+    Measurement,
+    MeasurementKind,
+    MeasurementSession,
+)
 
 __all__ = [
     "Circuit",
     "ConductorRun",
     "ElectricalTopology",
     "Equipment",
+    "Measurement",
+    "MeasurementKind",
+    "MeasurementSession",
     "Nameplate",
     "Organization",
     "Panel",
