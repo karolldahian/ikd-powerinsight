@@ -9,6 +9,7 @@ authors = [
 requires-python = ">=3.13"
 dependencies = [
     "pint>=0.26.1",
+    "pydantic>=2.13.5",
 ]
 
 [project.scripts]
