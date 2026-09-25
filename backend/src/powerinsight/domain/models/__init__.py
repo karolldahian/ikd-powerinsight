@@ -6,12 +6,20 @@ from powerinsight.domain.models.electrical_system import (
     Site,
     Supply,
 )
+from powerinsight.domain.models.electrical_topology import (
+    ElectricalTopology,
+    Phase,
+    PhaseAssignment,
+)
 
 __all__ = [
     "Circuit",
+    "ElectricalTopology",
     "Equipment",
     "Organization",
     "Panel",
+    "Phase",
+    "PhaseAssignment",
     "Site",
     "Supply",
 ]
