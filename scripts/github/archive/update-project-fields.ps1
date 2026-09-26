@@ -1,4 +1,18 @@
-﻿param([switch]$Apply)
+﻿<#
+.ADVERTENCIA - ARCHIVO HISTORICO OBSOLETO. NO EJECUTAR CONTRA EL PROJECT #5.
+
+    Empareja Issues por WBS en vez de por numero de Issue, y lleva hardcodeados
+    el Project ID (PVT_kwHOD4BgZc4Bke8P), el node ID del Project y los IDs de
+    los campos y sus opciones. Si el Project se renumera, si se reconstruye o si
+    una opcion cambia de ID, escribe sobre el campo equivocado sin avisar.
+
+    Ademas sobreescribe valores que difieren del Issue, en lugar de detenerse.
+    Se conserva solo como evidencia historica. La automatizacion mantenible del
+    Project #5 es scripts/github/project_sync.ps1, que resuelve IDs vivos,
+    empareja por numero de Issue y aborta ante cualquier DRIFT.
+    Ver scripts/github/README.md.
+#>
+param([switch]$Apply)
 
 $ErrorActionPreference = "Stop"
 

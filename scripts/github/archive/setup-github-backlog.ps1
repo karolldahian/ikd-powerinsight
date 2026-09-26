@@ -1,4 +1,16 @@
-﻿param([switch]$Apply)
+﻿<#
+.ADVERTENCIA - ARCHIVO HISTORICO OBSOLETO. NO EJECUTAR CONTRA EL PROJECT #5.
+
+    Apunta al Project #3, que no existe, y ademas CREA Issues, los CIERRA y
+    edita su titulo, cuerpo y labels. Es escritura remota sin verificacion de
+    gates y sin dry-run real: es exactamente el tipo de automatizacion que
+    Commit B retira de la superficie operativa.
+
+    Se conserva solo como evidencia historica. La automatizacion mantenible
+    del Project #5 es scripts/github/project_sync.ps1, que solo escribe
+    campos MISSING y nunca toca Issues. Ver scripts/github/README.md.
+#>
+param([switch]$Apply)
 
 $ErrorActionPreference = "Stop"
 $Owner = "karolldahian"

@@ -1,5 +1,19 @@
 #Requires -Version 5.1
 <#
+.ADVERTENCIA - ARCHIVO HISTORICO OBSOLETO. NO EJECUTAR CONTRA EL PROJECT #5.
+
+    Esta operacion YA SE EJECUTO una unica vez el 2026-09-26 (Commit A) y dio
+    por resultado el Project #5 con 183 items. Reejecutarla no verifica nada:
+    sus assertions (#90-#99 presentes en el Project, #229 con cinco campos
+    vacios) ya no se cumplen, asi que ahora aborta o queda en no-op.
+
+    Este archivo se conserva solo como evidencia de la migracion. La
+    automatizacion mantenible del Project #5 es
+    scripts/github/project_sync.ps1. Ver scripts/github/README.md.
+
+    El binario original sin esta cabecera esta preservado byte a byte en el
+    commit 23d42b7 ("chore: preserve Project 5 cleanup migration"). La
+    transformacion esta documentada en scripts/github/archive/MIGRATION.md.
 .SYNOPSIS
     Limpieza controlada del Project #5: retira del project los items de los
     Issues #90-#99 (fase RAG antigua, P9.1-P9.10, cerrada como NOT_PLANNED) y
