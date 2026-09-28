@@ -4,7 +4,7 @@
                  "repository":  "karolldahian/ikd-powerinsight",
                  "projectNumber":  5,
                  "source":  "github-live-export",
-                 "generatedAt":  "2026-09-28T19:16:27Z",
+                 "generatedAt":  "2026-09-28T19:29:56Z",
                  "keyedBy":  "issue"
              },
     "items":  [
@@ -213,7 +213,7 @@
                       "wbs":  "P2.1",
                       "title":  "P2.1 - Definir Organization, Site, Supply, Panel, Circuit y Equipment",
                       "phase":  "P2",
-                      "status":  "Backlog",
+                      "status":  "Done",
                       "priority":  "Critical",
                       "effort":  5,
                       "workType":  "Feature"
@@ -223,7 +223,7 @@
                       "wbs":  "P2.2",
                       "title":  "P2.2 - Definir PhaseAssignment y topologías sin ambigüedad",
                       "phase":  "P2",
-                      "status":  "Backlog",
+                      "status":  "Done",
                       "priority":  "Critical",
                       "effort":  3,
                       "workType":  "Feature"
@@ -233,7 +233,7 @@
                       "wbs":  "P2.3",
                       "title":  "P2.3 - Definir Nameplate, ProtectionDevice y ConductorRun",
                       "phase":  "P2",
-                      "status":  "Backlog",
+                      "status":  "Done",
                       "priority":  "High",
                       "effort":  3,
                       "workType":  "Feature"
@@ -243,7 +243,7 @@
                       "wbs":  "P2.4",
                       "title":  "P2.4 - Definir MeasurementSession y Measurement",
                       "phase":  "P2",
-                      "status":  "Backlog",
+                      "status":  "Done",
                       "priority":  "High",
                       "effort":  3,
                       "workType":  "Feature"
@@ -253,7 +253,7 @@
                       "wbs":  "P2.5",
                       "title":  "P2.5 - Definir Provenance, DataStatus y Confidence",
                       "phase":  "P2",
-                      "status":  "Backlog",
+                      "status":  "Done",
                       "priority":  "Critical",
                       "effort":  3,
                       "workType":  "Feature"
@@ -263,7 +263,7 @@
                       "wbs":  "P2.6",
                       "title":  "P2.6 - Integrar Pint y política de unidades",
                       "phase":  "P2",
-                      "status":  "Backlog",
+                      "status":  "Done",
                       "priority":  "High",
                       "effort":  3,
                       "workType":  "Feature"
@@ -273,7 +273,7 @@
                       "wbs":  "P2.7",
                       "title":  "P2.7 - Integrar Pydantic en boundaries y mantener invariantes del dominio",
                       "phase":  "P2",
-                      "status":  "Backlog",
+                      "status":  "Done",
                       "priority":  "High",
                       "effort":  3,
                       "workType":  "Feature"
@@ -283,7 +283,7 @@
                       "wbs":  "P2.8",
                       "title":  "P2.8 - Crear tests de serialización, unidades e invariantes",
                       "phase":  "P2",
-                      "status":  "Backlog",
+                      "status":  "Done",
                       "priority":  "High",
                       "effort":  5,
                       "workType":  "Test"
@@ -293,7 +293,7 @@
                       "wbs":  "P3.1",
                       "title":  "P3.1 - Separar funciones de potencia P, Q y S",
                       "phase":  "P3",
-                      "status":  "Backlog",
+                      "status":  "Done",
                       "priority":  "Critical",
                       "effort":  3,
                       "workType":  "Feature"
@@ -303,7 +303,7 @@
                       "wbs":  "P3.2",
                       "title":  "P3.2 - Implementar corriente según topología y significado de potencia",
                       "phase":  "P3",
-                      "status":  "Backlog",
+                      "status":  "Done",
                       "priority":  "Critical",
                       "effort":  5,
                       "workType":  "Feature"
@@ -313,7 +313,7 @@
                       "wbs":  "P3.3",
                       "title":  "P3.3 - Implementar cargas de motor: placa, eficiencia y factor de potencia",
                       "phase":  "P3",
-                      "status":  "Backlog",
+                      "status":  "Done",
                       "priority":  "Critical",
                       "effort":  5,
                       "workType":  "Feature"
@@ -323,7 +323,7 @@
                       "wbs":  "P3.4",
                       "title":  "P3.4 - Implementar facts puros de demanda sin reglas hardcoded",
                       "phase":  "P3",
-                      "status":  "Backlog",
+                      "status":  "Done",
                       "priority":  "Critical",
                       "effort":  3,
                       "workType":  "Feature"
@@ -333,7 +333,7 @@
                       "wbs":  "P3.5",
                       "title":  "P3.5 - Implementar carga por circuito, tablero y fase",
                       "phase":  "P3",
-                      "status":  "Backlog",
+                      "status":  "Done",
                       "priority":  "Critical",
                       "effort":  5,
                       "workType":  "Feature"
@@ -343,7 +343,7 @@
                       "wbs":  "P3.6",
                       "title":  "P3.6 - Implementar desbalance con método documentado",
                       "phase":  "P3",
-                      "status":  "Backlog",
+                      "status":  "Done",
                       "priority":  "High",
                       "effort":  5,
                       "workType":  "Feature"
