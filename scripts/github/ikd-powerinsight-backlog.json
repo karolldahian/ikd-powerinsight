@@ -4,7 +4,7 @@
                  "repository":  "karolldahian/ikd-powerinsight",
                  "projectNumber":  5,
                  "source":  "github-live-export",
-                 "generatedAt":  "2026-09-28T17:53:21Z",
+                 "generatedAt":  "2026-09-28T19:16:27Z",
                  "keyedBy":  "issue"
              },
     "items":  [
@@ -1421,7 +1421,7 @@
                   {
                       "issue":  155,
                       "wbs":  "P16.1",
-                      "title":  "P16.1 - Realizar revisión eléctrica independiente de golden cases",
+                      "title":  "P16.1 - Revision electrica independiente de resultados",
                       "phase":  "P16",
                       "status":  "Backlog",
                       "priority":  "Critical",
@@ -1431,7 +1431,7 @@
                   {
                       "issue":  156,
                       "wbs":  "P16.2",
-                      "title":  "P16.2 - Probar con proyecto real sin usarlo como dataset",
+                      "title":  "P16.2 - Validacion de los tres perfiles de producto",
                       "phase":  "P16",
                       "status":  "Backlog",
                       "priority":  "Critical",
@@ -1441,7 +1441,7 @@
                   {
                       "issue":  157,
                       "wbs":  "P16.3",
-                      "title":  "P16.3 - Realizar usability test con ingeniero o técnico",
+                      "title":  "P16.3 - Validacion de usabilidad y accesibilidad minima",
                       "phase":  "P16",
                       "status":  "Backlog",
                       "priority":  "High",
@@ -1450,28 +1450,18 @@
                   },
                   {
                       "issue":  158,
-                      "wbs":  "P16.4",
-                      "title":  "P16.4 - Medir tiempo de registro batch y correction rate OCR",
+                      "wbs":  "P16.13",
+                      "title":  "P16.13 - [Retirado] Medir tiempo de registro batch y correction rate OCR (cubierto por P6.11 #70)",
                       "phase":  "P16",
-                      "status":  "Backlog",
+                      "status":  "Done",
                       "priority":  "Medium",
                       "effort":  3,
                       "workType":  "Research"
                   },
                   {
                       "issue":  159,
-                      "wbs":  "P16.5",
-                      "title":  "P16.5 - Revisar false confidence y abstenciones RAG",
-                      "phase":  "P16",
-                      "status":  "Backlog",
-                      "priority":  "High",
-                      "effort":  3,
-                      "workType":  "Test"
-                  },
-                  {
-                      "issue":  160,
                       "wbs":  "P16.6",
-                      "title":  "P16.6 - Realizar threat y security review",
+                      "title":  "P16.6 - Validacion obligatoria de RAG v1.0",
                       "phase":  "P16",
                       "status":  "Backlog",
                       "priority":  "Critical",
@@ -1479,9 +1469,19 @@
                       "workType":  "Test"
                   },
                   {
-                      "issue":  161,
+                      "issue":  160,
                       "wbs":  "P16.7",
-                      "title":  "P16.7 - Documentar limitaciones",
+                      "title":  "P16.7 - Revision final de seguridad y amenazas",
+                      "phase":  "P16",
+                      "status":  "Backlog",
+                      "priority":  "Critical",
+                      "effort":  3,
+                      "workType":  "Test"
+                  },
+                  {
+                      "issue":  161,
+                      "wbs":  "P16.8",
+                      "title":  "P16.8 - Publicar alcance no-alcance y limitaciones de v1.0",
                       "phase":  "P16",
                       "status":  "Backlog",
                       "priority":  "Critical",
@@ -1490,8 +1490,8 @@
                   },
                   {
                       "issue":  162,
-                      "wbs":  "P16.8",
-                      "title":  "P16.8 - Preparar README, demo, video y portfolio description",
+                      "wbs":  "P16.9",
+                      "title":  "P16.9 - Documentacion de release y ejemplo reproducible",
                       "phase":  "P16",
                       "status":  "Backlog",
                       "priority":  "High",
@@ -1500,8 +1500,8 @@
                   },
                   {
                       "issue":  163,
-                      "wbs":  "P16.9",
-                      "title":  "P16.9 - Publicar release v1.0 y tag",
+                      "wbs":  "P16.11",
+                      "title":  "P16.11 - Publicar release v1.0 y tag",
                       "phase":  "P16",
                       "status":  "Backlog",
                       "priority":  "Critical",
@@ -1510,8 +1510,8 @@
                   },
                   {
                       "issue":  164,
-                      "wbs":  "P16.10",
-                      "title":  "P16.10 - Crear backlog v1.1 basado en evidencia",
+                      "wbs":  "P16.12",
+                      "title":  "P16.12 - Crear backlog v1.1 basado en evidencia",
                       "phase":  "P16",
                       "status":  "Backlog",
                       "priority":  "Medium",
@@ -1903,6 +1903,36 @@
                       "wbs":  "P14.7",
                       "title":  "P14.7 - Cerrar Gate G14 de seguridad CI-CD y limites de ejecucion IA",
                       "phase":  "P14",
+                      "status":  "Backlog",
+                      "priority":  "Critical",
+                      "effort":  3,
+                      "workType":  "Test"
+                  },
+                  {
+                      "issue":  237,
+                      "wbs":  "P16.4",
+                      "title":  "P16.4 - Validacion con y sin mediciones y con datos faltantes",
+                      "phase":  "P16",
+                      "status":  "Backlog",
+                      "priority":  "Critical",
+                      "effort":  5,
+                      "workType":  "Test"
+                  },
+                  {
+                      "issue":  238,
+                      "wbs":  "P16.5",
+                      "title":  "P16.5 - Validacion de trazabilidad determinismo y reproducibilidad",
+                      "phase":  "P16",
+                      "status":  "Backlog",
+                      "priority":  "Critical",
+                      "effort":  5,
+                      "workType":  "Test"
+                  },
+                  {
+                      "issue":  239,
+                      "wbs":  "P16.10",
+                      "title":  "P16.10 - Cerrar Gate G16 de release-candidate v1.0",
+                      "phase":  "P16",
                       "status":  "Backlog",
                       "priority":  "Critical",
                       "effort":  3,
